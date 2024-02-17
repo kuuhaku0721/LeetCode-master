@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\1-200">
+      <UniqueIdentifier>{373afcd5-aaec-47f9-9d28-428d9366def3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\201-400">
+      <UniqueIdentifier>{68dc3741-6186-44b2-9c23-66ae432704be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\401-600">
+      <UniqueIdentifier>{da7b3dfd-72da-47d9-ab52-6bfb3664e480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\601-800">
+      <UniqueIdentifier>{00af0af0-3be1-4111-8063-9f2c6e5f4d38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\801-1000">
+      <UniqueIdentifier>{2caad34a-02cb-4aa7-a9c4-55786757ed22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\面试题">
+      <UniqueIdentifier>{8e20a3bc-c628-482e-b604-6ecc5763f7de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1001-1200">
+      <UniqueIdentifier>{f3dad4a6-b5fc-4b7f-b4f1-5bac948bf412}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="2两数相加.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="3无重复字符的最长子串.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="6N字形变换.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="8字符串转整数(atoi).cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="12整数转罗马数字.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="13罗马数字转整数.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="19删除链表的倒数第 N 个结点.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="21合并两个有序的链表.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="28找出字符串中第一个匹配项的下标.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="38外观数列.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="35搜索插入位置.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="49字母的异位词分组.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="61旋转链表.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="92反转链表Ⅱ.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="68文本左右对齐.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="94二叉树中序遍历.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="98验证二叉搜索树.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="100相同的树.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="101对称二叉树.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="103二叉树的锯齿形层序遍历.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="104二叉树的最大深度.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="107二叉树层序遍历Ⅱ.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="108将有序数组转为二叉搜索树.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="109有序链表转二叉搜索树.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="110平衡二叉树.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="111二叉树的最小深度.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="151反转字符串中的单词.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="165比较版本号.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="173二叉搜索树迭代器.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="203移除链表元素.cpp">
+      <Filter>源文件\201-400</Filter>
+    </ClCompile>
+    <ClCompile Include="206反转链表.cpp">
+      <Filter>源文件\201-400</Filter>
+    </ClCompile>
+    <ClCompile Include="214最短回文串.cpp">
+      <Filter>源文件\201-400</Filter>
+    </ClCompile>
+    <ClCompile Include="222完全二叉树的节点个数.cpp">
+      <Filter>源文件\201-400</Filter>
+    </ClCompile>
+    <ClCompile Include="226翻转二叉树.cpp">
+      <Filter>源文件\201-400</Filter>
+    </ClCompile>
+    <ClCompile Include="230二叉搜索树中第K小的元素.cpp">
+      <Filter>源文件\201-400</Filter>
+    </ClCompile>
+    <ClCompile Include="237删除链表中的节点.cpp">
+      <Filter>源文件\201-400</Filter>
+    </ClCompile>
+    <ClCompile Include="242有效的字母异位词.cpp">
+      <Filter>源文件\201-400</Filter>
+    </ClCompile>
+    <ClCompile Include="257二叉树的所有路径.cpp">
+      <Filter>源文件\201-400</Filter>
+    </ClCompile>
+    <ClCompile Include="299猜数字游戏.cpp">
+      <Filter>源文件\201-400</Filter>
+    </ClCompile>
+    <ClCompile Include="344_反转字符串.cpp">
+      <Filter>源文件\201-400</Filter>
+    </ClCompile>
+    <ClCompile Include="383赎金信.cpp">
+      <Filter>源文件\201-400</Filter>
+    </ClCompile>
+    <ClCompile Include="387字符串中的第一个唯一字符.cpp">
+      <Filter>源文件\201-400</Filter>
+    </ClCompile>
+    <ClCompile Include="389找不同.cpp">
+      <Filter>源文件\201-400</Filter>
+    </ClCompile>
+    <ClCompile Include="412FizzBuzz.cpp">
+      <Filter>源文件\401-600</Filter>
+    </ClCompile>
+    <ClCompile Include="423从英文中重建数字.cpp">
+      <Filter>源文件\401-600</Filter>
+    </ClCompile>
+    <ClCompile Include="430扁平化多级双向链表.cpp">
+      <Filter>源文件\401-600</Filter>
+    </ClCompile>
+    <ClCompile Include="443压缩字符串.cpp">
+      <Filter>源文件\401-600</Filter>
+    </ClCompile>
+    <ClCompile Include="451根据字符出现频率排序.cpp">
+      <Filter>源文件\401-600</Filter>
+    </ClCompile>
+    <ClCompile Include="459重复的子字符串.cpp">
+      <Filter>源文件\401-600</Filter>
+    </ClCompile>
+    <ClCompile Include="467环绕字符串中唯一的子字符串.cpp">
+      <Filter>源文件\401-600</Filter>
+    </ClCompile>
+    <ClCompile Include="481神奇字符串.cpp">
+      <Filter>源文件\401-600</Filter>
+    </ClCompile>
+    <ClCompile Include="482密钥格式化.cpp">
+      <Filter>源文件\401-600</Filter>
+    </ClCompile>
+    <ClCompile Include="506相对名次.cpp">
+      <Filter>源文件\401-600</Filter>
+    </ClCompile>
+    <ClCompile Include="592分数加减运算.cpp">
+      <Filter>源文件\401-600</Filter>
+    </ClCompile>
+    <ClCompile Include="557反转字符串中的单词3.cpp">
+      <Filter>源文件\401-600</Filter>
+    </ClCompile>
+    <ClCompile Include="553最优除法.cpp">
+      <Filter>源文件\401-600</Filter>
+    </ClCompile>
+    <ClCompile Include="551学生出勤记录一.cpp">
+      <Filter>源文件\401-600</Filter>
+    </ClCompile>
+    <ClCompile Include="541反转字符串2.cpp">
+      <Filter>源文件\401-600</Filter>
+    </ClCompile>
+    <ClCompile Include="539最小时间差.cpp">
+      <Filter>源文件\401-600</Filter>
+    </ClCompile>
+    <ClCompile Include="538把二叉搜索树转换为累加树.cpp">
+      <Filter>源文件\401-600</Filter>
+    </ClCompile>
+    <ClCompile Include="537复数乘法.cpp">
+      <Filter>源文件\401-600</Filter>
+    </ClCompile>
+    <ClCompile Include="535TinyURL的加密与解密.cpp">
+      <Filter>源文件\401-600</Filter>
+    </ClCompile>
+    <ClCompile Include="530二叉搜索树的最小绝对差.cpp">
+      <Filter>源文件\401-600</Filter>
+    </ClCompile>
+    <ClCompile Include="515找二叉树每一行的最大值.cpp">
+      <Filter>源文件\401-600</Filter>
+    </ClCompile>
+    <ClCompile Include="513找树左下角的值.cpp">
+      <Filter>源文件\401-600</Filter>
+    </ClCompile>
+    <ClCompile Include="637二叉树的层平均值.cpp">
+      <Filter>源文件\601-800</Filter>
+    </ClCompile>
+    <ClCompile Include="640求解方程.cpp">
+      <Filter>源文件\601-800</Filter>
+    </ClCompile>
+    <ClCompile Include="653两数之和Ⅳ二叉搜索树.cpp">
+      <Filter>源文件\601-800</Filter>
+    </ClCompile>
+    <ClCompile Include="657机器人能否返回原点.cpp">
+      <Filter>源文件\601-800</Filter>
+    </ClCompile>
+    <ClCompile Include="671二叉树中第二小的节点.cpp">
+      <Filter>源文件\601-800</Filter>
+    </ClCompile>
+    <ClCompile Include="686重复叠加字符串匹配.cpp">
+      <Filter>源文件\601-800</Filter>
+    </ClCompile>
+    <ClCompile Include="696计数二进制子串.cpp">
+      <Filter>源文件\601-800</Filter>
+    </ClCompile>
+    <ClCompile Include="700二叉搜索树中的搜索.cpp">
+      <Filter>源文件\601-800</Filter>
+    </ClCompile>
+    <ClCompile Include="704二分查找.cpp">
+      <Filter>源文件\601-800</Filter>
+    </ClCompile>
+    <ClCompile Include="977有序数组的平方.cpp">
+      <Filter>源文件\801-1000</Filter>
+    </ClCompile>
+    <ClCompile Include="209长度最小的子数组.cpp">
+      <Filter>源文件\201-400</Filter>
+    </ClCompile>
+    <ClCompile Include="59螺旋矩阵Ⅱ.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="707设计链表.cpp">
+      <Filter>源文件\601-800</Filter>
+    </ClCompile>
+    <ClCompile Include="24两两交换链表中的结点.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="面试题 02.07链表相交.cpp">
+      <Filter>源文件\面试题</Filter>
+    </ClCompile>
+    <ClCompile Include="142环形链表Ⅱ.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="349两个数组的交集.cpp">
+      <Filter>源文件\201-400</Filter>
+    </ClCompile>
+    <ClCompile Include="202快乐数.cpp">
+      <Filter>源文件\201-400</Filter>
+    </ClCompile>
+    <ClCompile Include="454四数相加Ⅱ.cpp">
+      <Filter>源文件\401-600</Filter>
+    </ClCompile>
+    <ClCompile Include="15三数之和.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="58最后一个单词的长度.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="232用栈实现队列.cpp">
+      <Filter>源文件\201-400</Filter>
+    </ClCompile>
+    <ClCompile Include="66加一.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="67二进制求和.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="18四数之和.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="225用队列实现栈.cpp">
+      <Filter>源文件\201-400</Filter>
+    </ClCompile>
+    <ClCompile Include="1047删除字符串中的重复项.cpp">
+      <Filter>源文件\1001-1200</Filter>
+    </ClCompile>
+    <ClCompile Include="69x的平方根.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="88合并两个有序数组.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="83删除排序链表中的重复元素.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="118杨辉三角.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="150逆波兰表达式求值.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="347前K个高频元素.cpp">
+      <Filter>源文件\201-400</Filter>
+    </ClCompile>
+    <ClCompile Include="239滑动窗口的最大值.cpp">
+      <Filter>源文件\201-400</Filter>
+    </ClCompile>
+    <ClCompile Include="144二叉树的前序遍历.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="145二叉树的后序遍历.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="102二叉树的层序遍历.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="199二叉树的右视图.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="429N叉树的层序遍历.cpp">
+      <Filter>源文件\401-600</Filter>
+    </ClCompile>
+    <ClCompile Include="116填充每一个节点的下一个右侧节点指针.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="117填充每一个节点的下一个右侧节点指针Ⅱ.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="404左叶子之和.cpp">
+      <Filter>源文件\401-600</Filter>
+    </ClCompile>
+    <ClCompile Include="112路径总和.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="106从中序与后序遍历序列构造二叉树.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="105从前序与中序遍历序列构造二叉树.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="654最大二叉树.cpp">
+      <Filter>源文件\601-800</Filter>
+    </ClCompile>
+    <ClCompile Include="617合并二叉树.cpp">
+      <Filter>源文件\601-800</Filter>
+    </ClCompile>
+    <ClCompile Include="501二叉搜索树中的众数.cpp">
+      <Filter>源文件\401-600</Filter>
+    </ClCompile>
+    <ClCompile Include="236二叉树的最近公共祖先.cpp">
+      <Filter>源文件\201-400</Filter>
+    </ClCompile>
+    <ClCompile Include="235二叉搜索树的最近公共祖先.cpp">
+      <Filter>源文件\201-400</Filter>
+    </ClCompile>
+    <ClCompile Include="701二叉搜索树中的插入操作.cpp">
+      <Filter>源文件\601-800</Filter>
+    </ClCompile>
+    <ClCompile Include="450删除二叉搜索树中的节点.cpp">
+      <Filter>源文件\401-600</Filter>
+    </ClCompile>
+    <ClCompile Include="669修剪二叉搜索树.cpp">
+      <Filter>源文件\601-800</Filter>
+    </ClCompile>
+    <ClCompile Include="77组合.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="216组合总和Ⅲ.cpp">
+      <Filter>源文件\201-400</Filter>
+    </ClCompile>
+    <ClCompile Include="17电话号码的字母组合.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="39组合总和.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="40组合总和Ⅱ.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="131分割回文串.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="93复原IP地址.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="78子集.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="90子集Ⅱ.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="491非递减子序列.cpp">
+      <Filter>源文件\401-600</Filter>
+    </ClCompile>
+    <ClCompile Include="46全排列.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="332重新安排行程.cpp">
+      <Filter>源文件\201-400</Filter>
+    </ClCompile>
+    <ClCompile Include="51N皇后.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="37解数独.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
