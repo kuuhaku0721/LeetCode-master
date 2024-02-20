@@ -438,5 +438,8 @@
     <ClCompile Include="376摆动序列.cpp">
       <Filter>源文件\201-400</Filter>
     </ClCompile>
+    <ClCompile Include="53最大子数组和.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
