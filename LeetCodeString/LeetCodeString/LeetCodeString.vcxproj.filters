@@ -447,5 +447,8 @@
     <ClCompile Include="55跳跃游戏.cpp">
       <Filter>源文件\1-200</Filter>
     </ClCompile>
+    <ClCompile Include="45跳跃游戏Ⅱ.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
