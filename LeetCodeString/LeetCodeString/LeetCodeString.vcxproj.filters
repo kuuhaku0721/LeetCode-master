@@ -450,5 +450,8 @@
     <ClCompile Include="45跳跃游戏Ⅱ.cpp">
       <Filter>源文件\1-200</Filter>
     </ClCompile>
+    <ClCompile Include="1005K次取反后最大化的数组和.cpp">
+      <Filter>源文件\1001-1200</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
