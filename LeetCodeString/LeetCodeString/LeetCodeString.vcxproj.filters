@@ -456,5 +456,8 @@
     <ClCompile Include="134加油站.cpp">
       <Filter>源文件\1-200</Filter>
     </ClCompile>
+    <ClCompile Include="860柠檬水找零.cpp">
+      <Filter>源文件\801-1000</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
