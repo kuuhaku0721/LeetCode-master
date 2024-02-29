@@ -465,5 +465,8 @@
     <ClCompile Include="406根据身高重建队列.cpp">
       <Filter>源文件\401-600</Filter>
     </ClCompile>
+    <ClCompile Include="452用最少数量的箭引爆气球.cpp">
+      <Filter>源文件\401-600</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
