@@ -480,5 +480,8 @@
     <ClCompile Include="738单调递增的数字.cpp">
       <Filter>源文件\601-800</Filter>
     </ClCompile>
+    <ClCompile Include="968监控二叉树.cpp">
+      <Filter>源文件\801-1000</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
