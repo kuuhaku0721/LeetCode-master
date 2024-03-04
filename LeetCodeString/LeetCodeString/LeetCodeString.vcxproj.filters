@@ -477,5 +477,8 @@
     <ClCompile Include="56合并区间.cpp">
       <Filter>源文件\1-200</Filter>
     </ClCompile>
+    <ClCompile Include="738单调递增的数字.cpp">
+      <Filter>源文件\601-800</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
