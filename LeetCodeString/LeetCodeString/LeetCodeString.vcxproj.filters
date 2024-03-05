@@ -489,5 +489,8 @@
     <ClCompile Include="70爬楼梯.cpp">
       <Filter>源文件\1-200</Filter>
     </ClCompile>
+    <ClCompile Include="746使用最小花费爬楼梯.cpp">
+      <Filter>源文件\601-800</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
