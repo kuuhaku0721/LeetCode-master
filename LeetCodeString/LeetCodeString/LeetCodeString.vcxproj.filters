@@ -486,5 +486,8 @@
     <ClCompile Include="509斐波那契数.cpp">
       <Filter>源文件\401-600</Filter>
     </ClCompile>
+    <ClCompile Include="70爬楼梯.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
