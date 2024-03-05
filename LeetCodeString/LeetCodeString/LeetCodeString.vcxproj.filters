@@ -498,5 +498,11 @@
     <ClCompile Include="lq_2301_日期统计.cpp">
       <Filter>源文件\lanqiao</Filter>
     </ClCompile>
+    <ClCompile Include="lq_2302_01串的熵.cpp">
+      <Filter>源文件\lanqiao</Filter>
+    </ClCompile>
+    <ClCompile Include="lq_2303_冶炼金属.cpp">
+      <Filter>源文件\lanqiao</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
