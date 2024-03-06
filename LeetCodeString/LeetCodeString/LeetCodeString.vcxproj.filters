@@ -507,5 +507,17 @@
     <ClCompile Include="62不同路径.cpp">
       <Filter>源文件\1-200</Filter>
     </ClCompile>
+    <ClCompile Include="lq_2304_飞机降落.cpp">
+      <Filter>源文件\lanqiao</Filter>
+    </ClCompile>
+    <ClCompile Include="lq_2305_接龙数列.cpp">
+      <Filter>源文件\lanqiao</Filter>
+    </ClCompile>
+    <ClCompile Include="lq_2306_岛屿个数.cpp">
+      <Filter>源文件\lanqiao</Filter>
+    </ClCompile>
+    <ClCompile Include="lq_2307_子串简写.cpp">
+      <Filter>源文件\lanqiao</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
