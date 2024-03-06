@@ -504,5 +504,8 @@
     <ClCompile Include="lq_2303_冶炼金属.cpp">
       <Filter>源文件\lanqiao</Filter>
     </ClCompile>
+    <ClCompile Include="62不同路径.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
