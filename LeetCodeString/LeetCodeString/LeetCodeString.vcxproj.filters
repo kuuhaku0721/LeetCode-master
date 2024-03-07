@@ -522,5 +522,8 @@
     <ClCompile Include="63不同路径Ⅱ.cpp">
       <Filter>源文件\1-200</Filter>
     </ClCompile>
+    <ClCompile Include="lq_2308_整数删除.cpp">
+      <Filter>源文件\lanqiao</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
