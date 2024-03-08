@@ -525,5 +525,11 @@
     <ClCompile Include="lq_2308_整数删除.cpp">
       <Filter>源文件\lanqiao</Filter>
     </ClCompile>
+    <ClCompile Include="lq_2309_景区导游.cpp">
+      <Filter>源文件\lanqiao</Filter>
+    </ClCompile>
+    <ClCompile Include="343整数拆分.cpp">
+      <Filter>源文件\201-400</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
