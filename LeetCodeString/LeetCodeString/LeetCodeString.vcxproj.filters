@@ -531,5 +531,8 @@
     <ClCompile Include="343整数拆分.cpp">
       <Filter>源文件\201-400</Filter>
     </ClCompile>
+    <ClCompile Include="96不同的二叉搜索树.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
