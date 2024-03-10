@@ -537,5 +537,8 @@
     <ClCompile Include="416分割等和子集.cpp">
       <Filter>源文件\401-600</Filter>
     </ClCompile>
+    <ClCompile Include="lq_2310_砍树.cpp">
+      <Filter>源文件\lanqiao</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
