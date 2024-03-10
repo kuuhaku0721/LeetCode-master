@@ -540,5 +540,14 @@
     <ClCompile Include="lq_2310_砍树.cpp">
       <Filter>源文件\lanqiao</Filter>
     </ClCompile>
+    <ClCompile Include="lq_2201_九进制转十进制.cpp">
+      <Filter>源文件\lanqiao</Filter>
+    </ClCompile>
+    <ClCompile Include="lq_2202_顺子日期.cpp">
+      <Filter>源文件\lanqiao</Filter>
+    </ClCompile>
+    <ClCompile Include="lq_2203_刷题统计.cpp">
+      <Filter>源文件\lanqiao</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
