@@ -558,5 +558,8 @@
     <ClCompile Include="lq_2205_X进制减法.cpp">
       <Filter>源文件\lanqiao</Filter>
     </ClCompile>
+    <ClCompile Include="283移动零.cpp">
+      <Filter>源文件\201-400</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
