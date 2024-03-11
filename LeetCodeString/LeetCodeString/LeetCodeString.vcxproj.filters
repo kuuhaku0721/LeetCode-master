@@ -549,5 +549,14 @@
     <ClCompile Include="lq_2203_刷题统计.cpp">
       <Filter>源文件\lanqiao</Filter>
     </ClCompile>
+    <ClCompile Include="1049最后一块石头的重量Ⅱ.cpp">
+      <Filter>源文件\1001-1200</Filter>
+    </ClCompile>
+    <ClCompile Include="lq_2204_修建灌木.cpp">
+      <Filter>源文件\lanqiao</Filter>
+    </ClCompile>
+    <ClCompile Include="lq_2205_X进制减法.cpp">
+      <Filter>源文件\lanqiao</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
