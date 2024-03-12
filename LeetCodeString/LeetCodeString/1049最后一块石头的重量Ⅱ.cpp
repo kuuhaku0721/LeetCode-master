@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <numeric>
 using namespace std;
 
 /*
@@ -15,16 +16,26 @@ using namespace std;
 
 /*
 * 【发出一句很酷的 哼！】 动规，不会
-* 
-* 这个等3.12号再做，做之前需要看01背包问题
-* 也就是明天，将会是属于力扣得一天
-* o~shit
+* 底子是01背包问题
+* 01背包是啥？脑子理解了，手不会
+* 怎么能想到01背包？不会
+* md一问三不会，这还学个p啊
 */
 
 class Solution {
 public:
 	int lastStoneWeightII(vector<int>& stones) {
-
+		vector<int> dp(15001, 0);
+		int sum = accumulate(stones.begin(), stones.end(), 0);
+		int target = sum / 2;
+		for (int i = 0; i < stones.size(); i++)
+		{
+			for (int j = target; j >= stones[i]; --j)
+			{
+				dp[j] = max(dp[j], dp[j - stones[i]] + stones[i]);
+			}
+		}
+		return sum - dp[target] - dp[target];
 	}
 };
 
@@ -32,6 +43,9 @@ public:
 int main()
 {
 	cout << "hello world" << endl;
+	vector<int> stones{ 2,7,4,1,8,1 };
+	int res = Solution().lastStoneWeightII(stones);
+	cout << res << endl;
 
 	system("pause");
 	return 0;
