@@ -585,5 +585,8 @@
     <ClCompile Include="lq_2103_直线.cpp">
       <Filter>源文件\lanqiao</Filter>
     </ClCompile>
+    <ClCompile Include="494目标和.cpp">
+      <Filter>源文件\401-600</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
