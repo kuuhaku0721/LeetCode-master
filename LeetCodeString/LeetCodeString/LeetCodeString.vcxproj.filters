@@ -588,5 +588,26 @@
     <ClCompile Include="494目标和.cpp">
       <Filter>源文件\401-600</Filter>
     </ClCompile>
+    <ClCompile Include="lq_2104_货物摆放.cpp">
+      <Filter>源文件\lanqiao</Filter>
+    </ClCompile>
+    <ClCompile Include="lq_2105_路径.cpp">
+      <Filter>源文件\lanqiao</Filter>
+    </ClCompile>
+    <ClCompile Include="lq_2106_时间显示.cpp">
+      <Filter>源文件\lanqiao</Filter>
+    </ClCompile>
+    <ClCompile Include="lq_2107_砝码称重.cpp">
+      <Filter>源文件\lanqiao</Filter>
+    </ClCompile>
+    <ClCompile Include="lq_2108_杨辉三角.cpp">
+      <Filter>源文件\lanqiao</Filter>
+    </ClCompile>
+    <ClCompile Include="lq_2109_双向排序.cpp">
+      <Filter>源文件\lanqiao</Filter>
+    </ClCompile>
+    <ClCompile Include="lq_2110_括号序列.cpp">
+      <Filter>源文件\lanqiao</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
