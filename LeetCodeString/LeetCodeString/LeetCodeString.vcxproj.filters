@@ -609,5 +609,8 @@
     <ClCompile Include="lq_2110_括号序列.cpp">
       <Filter>源文件\lanqiao</Filter>
     </ClCompile>
+    <ClCompile Include="474一和零.cpp">
+      <Filter>源文件\401-600</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
