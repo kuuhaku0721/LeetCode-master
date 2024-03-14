@@ -37,6 +37,9 @@
     <Filter Include="源文件\lanqiao">
       <UniqueIdentifier>{f1ace2f6-1c3e-44ac-bd96-c851b4d0ce56}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\hot100">
+      <UniqueIdentifier>{a68c483d-74c2-4b9b-9968-4c4083328172}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="2两数相加.cpp">
@@ -611,6 +614,15 @@
     </ClCompile>
     <ClCompile Include="474一和零.cpp">
       <Filter>源文件\401-600</Filter>
+    </ClCompile>
+    <ClCompile Include="160相交链表.cpp">
+      <Filter>源文件\hot100</Filter>
+    </ClCompile>
+    <ClCompile Include="234回文链表.cpp">
+      <Filter>源文件\hot100</Filter>
+    </ClCompile>
+    <ClCompile Include="141环形链表.cpp">
+      <Filter>源文件\hot100</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
