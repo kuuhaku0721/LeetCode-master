@@ -40,12 +40,12 @@
     <Filter Include="源文件\hot100">
       <UniqueIdentifier>{a68c483d-74c2-4b9b-9968-4c4083328172}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\笔试">
+      <UniqueIdentifier>{36f7deda-e21f-4f23-9098-cc7b4c1c4764}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="2两数相加.cpp">
-      <Filter>源文件\1-200</Filter>
-    </ClCompile>
-    <ClCompile Include="3无重复字符的最长子串.cpp">
       <Filter>源文件\1-200</Filter>
     </ClCompile>
     <ClCompile Include="6N字形变换.cpp">
@@ -634,6 +634,33 @@
       <Filter>源文件\hot100</Filter>
     </ClCompile>
     <ClCompile Include="169多数元素.cpp">
+      <Filter>源文件\hot100</Filter>
+    </ClCompile>
+    <ClCompile Include="128最长连续序列.cpp">
+      <Filter>源文件\hot100</Filter>
+    </ClCompile>
+    <ClCompile Include="11盛最多水的容器.cpp">
+      <Filter>源文件\hot100</Filter>
+    </ClCompile>
+    <ClCompile Include="3无重复字符的最长子串.cpp">
+      <Filter>源文件\hot100</Filter>
+    </ClCompile>
+    <ClCompile Include="米哈游_01_米小游和蹦蹦史莱姆.cpp">
+      <Filter>源文件\笔试</Filter>
+    </ClCompile>
+    <ClCompile Include="米哈游_02_米小游与一番赏.cpp">
+      <Filter>源文件\笔试</Filter>
+    </ClCompile>
+    <ClCompile Include="米哈游_03_米小游与建木.cpp">
+      <Filter>源文件\笔试</Filter>
+    </ClCompile>
+    <ClCompile Include="73矩阵置零.cpp">
+      <Filter>源文件\hot100</Filter>
+    </ClCompile>
+    <ClCompile Include="74搜索二维矩阵.cpp">
+      <Filter>源文件\hot100</Filter>
+    </ClCompile>
+    <ClCompile Include="148排序链表.cpp">
       <Filter>源文件\hot100</Filter>
     </ClCompile>
   </ItemGroup>

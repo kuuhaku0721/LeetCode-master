@@ -21,36 +21,47 @@ using namespace std;
 * 
 * 没做出来，等等之后回来再看吧 
 */
+
+/*
+* 好的，我又回来了
+* 看看分类，这题属于滑动窗口，所以要用窗口的思想去做
+* 希望能做出来
+* 滑动窗口，窗口就拿一个字符串当，如果不存在相同的，就++，如果存在，那就找到第一个出现的位置，把前面的位置全清掉
+* 然后继续循环，窗口往前增长，每次增长都要保留长度
+* 
+* 你猜我卡在哪了？ 通过用例985/987 卡在了 s = " "  预期1实际输出0
+* 好了，100%，我感觉我进步了，毕竟上次见到你卡半天不会写
+*/
+
 class Solution {
 public:
 	int lengthOfLongestSubstring(string s) {
-		map<char, int> mapLastIndex;
-		int res = 0;
-		int coil = 0;
-		for (int i = 0; i < s.size(); i++)
+		if (s.size() == 0) return 0;
+		string str = "";
+		str += s[0];
+		int ans = str.size();
+		for (int i = 1; i < s.size(); i++)
 		{
-			if (mapLastIndex.count(s[i]) == 0)
+			if (str.find(s[i]) != -1)
 			{
-				mapLastIndex[s[i]] = i;
-				coil++;
+				auto it = find(str.begin(), str.end(), s[i]);
+				str.erase(str.begin(), it + 1);
+				str += s[i];
 			}
 			else
-			{
-				res = max(res, i - mapLastIndex[s[i]]);
-				mapLastIndex[s[i]] = i;
-				coil = 1;
-				continue;
-			}
-			res = max(res, coil);
+				str += s[i];
+			ans = max(ans, (int)str.size());
 		}
-		return res;
+		return ans;
 	}
 };
 
 int main()
 {
 	cout << "hello world" << endl;
-	string str = "abba";
+	// string str = "abba";
+	// string str = "abcabcbb";
+	string str = "bbbbb";
 	cout << Solution().lengthOfLongestSubstring(str) << endl;
 
 	system("pause");
