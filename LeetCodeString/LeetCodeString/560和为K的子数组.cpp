@@ -1,7 +1,11 @@
-﻿#include <iostream>
+﻿#define CRTDBG_MAP_ALLOC
+#define _CRT_SECURE_NO_WARNINGS
+
+#include <iostream>
 #include <string>
 #include <vector>
 #include <unordered_map>
+#include <crtdbg.h>
 using namespace std;
 
 /*
@@ -62,18 +66,30 @@ public:
 				res += umap[prefixsum[i] - k];
 			umap[prefixsum[i]]++;
 		}
+		
+
+		return res;
 	}
 };
 
 
 int main()
 {
+	
 	cout << "hello world" << endl;
 	vector<int> nums{ 1, -1, 0 };
 	int k = 0;
 	int res = Solution().subarraySum(nums, k);
 	cout << res << endl;
+	int* iptr = new int(3);
+	
+	cout << "下面是测试" << endl;
+	string s = "the blue";
+	reverse(s.begin(), s.end());
+	cout << s << endl;
+	
 
+	_CrtDumpMemoryLeaks();
 	system("pause");
 	return 0;
 }

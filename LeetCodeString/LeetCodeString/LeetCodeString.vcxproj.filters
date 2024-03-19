@@ -669,5 +669,14 @@
     <ClCompile Include="560和为K的子数组.cpp">
       <Filter>源文件\hot100</Filter>
     </ClCompile>
+    <ClCompile Include="191位1的个数.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="47全排列Ⅱ.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
+    <ClCompile Include="55_k右旋字符串.cpp">
+      <Filter>源文件\1-200</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
