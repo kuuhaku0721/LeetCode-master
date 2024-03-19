@@ -663,5 +663,11 @@
     <ClCompile Include="148排序链表.cpp">
       <Filter>源文件\hot100</Filter>
     </ClCompile>
+    <ClCompile Include="438找到字符串中所有字母的异位词.cpp">
+      <Filter>源文件\hot100</Filter>
+    </ClCompile>
+    <ClCompile Include="560和为K的子数组.cpp">
+      <Filter>源文件\hot100</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
