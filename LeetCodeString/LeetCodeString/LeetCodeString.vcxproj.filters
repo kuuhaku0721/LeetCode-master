@@ -681,5 +681,8 @@
     <ClCompile Include="189轮转数组.cpp">
       <Filter>源文件\hot100</Filter>
     </ClCompile>
+    <ClCompile Include="238除自身以外的数组的乘积.cpp">
+      <Filter>源文件\hot100</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
