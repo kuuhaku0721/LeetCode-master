@@ -678,5 +678,8 @@
     <ClCompile Include="55_k右旋字符串.cpp">
       <Filter>源文件\1-200</Filter>
     </ClCompile>
+    <ClCompile Include="189轮转数组.cpp">
+      <Filter>源文件\hot100</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
