@@ -90,6 +90,10 @@ struct DLinkedNode {
     DLinkedNode(int _key, int _value) : key(_key), value(_value), prev(nullptr), next(nullptr) {}
 };
 
+/*
+* 哈希表仅用来查找用，实际还是需要维护一个双向链表
+* 自己去实现这个双向链表，然后实现删除、插入，移动等功能，相对来说可能效率会高一点
+*/
 class LRUCache {
 private:
     unordered_map<int, DLinkedNode*> cache;
