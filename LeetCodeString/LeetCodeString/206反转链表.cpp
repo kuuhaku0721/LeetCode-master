@@ -17,7 +17,7 @@ struct ListNode {
 /*
 * 双指针，一个跟着链表走，一个负责记录上一个位置，然后将它的netx指向上一个
 */
-class Solution {
+class Solution1 {
 public:
 	ListNode* reverseList(ListNode* head) {
 		if (head == NULL) return NULL;
@@ -30,6 +30,27 @@ public:
 			head = p;
 		}
 		return pre;
+	}
+};
+// 很好，很棒，又会一个递归，真好...
+class Solution {
+public:
+	ListNode* newHead;
+	ListNode* reverseList(ListNode* head) {
+		Reverse(nullptr, head);
+		return newHead;
+	}
+
+	void Reverse(ListNode* prev, ListNode* curr)
+	{
+		if (curr == nullptr)
+		{
+			newHead = prev;
+			return;
+		}
+
+		Reverse(curr, curr->next);
+		curr->next = prev;
 	}
 };
 

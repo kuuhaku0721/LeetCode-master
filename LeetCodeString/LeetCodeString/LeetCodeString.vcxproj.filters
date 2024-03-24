@@ -43,6 +43,9 @@
     <Filter Include="源文件\笔试">
       <UniqueIdentifier>{36f7deda-e21f-4f23-9098-cc7b4c1c4764}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\随想录速刷">
+      <UniqueIdentifier>{f41e1e52-cba6-4af1-a880-3d03c79668a1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="2两数相加.cpp">
@@ -701,6 +704,30 @@
     </ClCompile>
     <ClCompile Include="79单词搜索.cpp">
       <Filter>源文件\hot100</Filter>
+    </ClCompile>
+    <ClCompile Include="二分查找.cpp">
+      <Filter>源文件\随想录速刷</Filter>
+    </ClCompile>
+    <ClCompile Include="螺旋矩阵Ⅱ.cpp">
+      <Filter>源文件\随想录速刷</Filter>
+    </ClCompile>
+    <ClCompile Include="移除链表元素.cpp">
+      <Filter>源文件\随想录速刷</Filter>
+    </ClCompile>
+    <ClCompile Include="反转链表.cpp">
+      <Filter>源文件\随想录速刷</Filter>
+    </ClCompile>
+    <ClCompile Include="有效字母的异位串.cpp">
+      <Filter>源文件\随想录速刷</Filter>
+    </ClCompile>
+    <ClCompile Include="两个数组的交集.cpp">
+      <Filter>源文件\随想录速刷</Filter>
+    </ClCompile>
+    <ClCompile Include="反转字符串中的单词.cpp">
+      <Filter>源文件\随想录速刷</Filter>
+    </ClCompile>
+    <ClCompile Include="前K个高频元素.cpp">
+      <Filter>源文件\随想录速刷</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
