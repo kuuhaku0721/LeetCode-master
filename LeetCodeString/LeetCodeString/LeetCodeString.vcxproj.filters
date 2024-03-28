@@ -756,5 +756,17 @@
     <ClCompile Include="54螺旋矩阵.cpp">
       <Filter>源文件\hot100</Filter>
     </ClCompile>
+    <ClCompile Include="48旋转图像.cpp">
+      <Filter>源文件\hot100</Filter>
+    </ClCompile>
+    <ClCompile Include="240搜索二维矩阵Ⅱ.cpp">
+      <Filter>源文件\hot100</Filter>
+    </ClCompile>
+    <ClCompile Include="34在排序数组中查找元素的第一个和最后一个位置.cpp">
+      <Filter>源文件\hot100</Filter>
+    </ClCompile>
+    <ClCompile Include="33搜索旋转排序数组.cpp">
+      <Filter>源文件\hot100</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
