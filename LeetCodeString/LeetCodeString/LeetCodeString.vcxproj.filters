@@ -768,5 +768,32 @@
     <ClCompile Include="33搜索旋转排序数组.cpp">
       <Filter>源文件\hot100</Filter>
     </ClCompile>
+    <ClCompile Include="386字典序排数.cpp">
+      <Filter>源文件\201-400</Filter>
+    </ClCompile>
+    <ClCompile Include="网易雷火_04_永劫无间.cpp">
+      <Filter>源文件\笔试</Filter>
+    </ClCompile>
+    <ClCompile Include="网易雷火_01_司龄积木.cpp">
+      <Filter>源文件\笔试</Filter>
+    </ClCompile>
+    <ClCompile Include="网易雷火_02_操作次数.cpp">
+      <Filter>源文件\笔试</Filter>
+    </ClCompile>
+    <ClCompile Include="网易雷火_03_爬塔游戏.cpp">
+      <Filter>源文件\笔试</Filter>
+    </ClCompile>
+    <ClCompile Include="153寻找旋转排序数组中的最小值.cpp">
+      <Filter>源文件\hot100</Filter>
+    </ClCompile>
+    <ClCompile Include="155最小栈.cpp">
+      <Filter>源文件\hot100</Filter>
+    </ClCompile>
+    <ClCompile Include="394字符串解码.cpp">
+      <Filter>源文件\hot100</Filter>
+    </ClCompile>
+    <ClCompile Include="739每日温度.cpp">
+      <Filter>源文件\hot100</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
