@@ -834,5 +834,8 @@
     <ClCompile Include="72编辑距离.cpp">
       <Filter>源文件\hot100</Filter>
     </ClCompile>
+    <ClCompile Include="80删除有序数组中的重复项Ⅱ.cpp">
+      <Filter>源文件\hot100</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
