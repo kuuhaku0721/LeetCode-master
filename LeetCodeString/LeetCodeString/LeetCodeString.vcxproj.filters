@@ -837,5 +837,8 @@
     <ClCompile Include="80删除有序数组中的重复项Ⅱ.cpp">
       <Filter>源文件\hot100</Filter>
     </ClCompile>
+    <ClCompile Include="994腐烂的橘子.cpp">
+      <Filter>源文件\hot100</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
