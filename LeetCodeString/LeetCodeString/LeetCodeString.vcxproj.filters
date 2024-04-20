@@ -297,9 +297,6 @@
     <ClCompile Include="454四数相加Ⅱ.cpp">
       <Filter>源文件\401-600</Filter>
     </ClCompile>
-    <ClCompile Include="15三数之和.cpp">
-      <Filter>源文件\1-200</Filter>
-    </ClCompile>
     <ClCompile Include="58最后一个单词的长度.cpp">
       <Filter>源文件\1-200</Filter>
     </ClCompile>
@@ -563,9 +560,6 @@
     </ClCompile>
     <ClCompile Include="lq_2205_X进制减法.cpp">
       <Filter>源文件\lanqiao</Filter>
-    </ClCompile>
-    <ClCompile Include="283移动零.cpp">
-      <Filter>源文件\201-400</Filter>
     </ClCompile>
     <ClCompile Include="lq_2206_统计子矩阵.cpp">
       <Filter>源文件\lanqiao</Filter>
@@ -847,6 +841,15 @@
       <Filter>源文件\hot100</Filter>
     </ClCompile>
     <ClCompile Include="49字母异位词分组.cpp">
+      <Filter>源文件\hot100</Filter>
+    </ClCompile>
+    <ClCompile Include="283移动零.cpp">
+      <Filter>源文件\hot100</Filter>
+    </ClCompile>
+    <ClCompile Include="15三数之和.cpp">
+      <Filter>源文件\hot100</Filter>
+    </ClCompile>
+    <ClCompile Include="42接雨水.cpp">
       <Filter>源文件\hot100</Filter>
     </ClCompile>
   </ItemGroup>

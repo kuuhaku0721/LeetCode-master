@@ -25,7 +25,7 @@ using namespace std;
 
 */
 
-class Solution {
+class Solution1 {
 public:
 	vector<vector<int>> threeSum(vector<int>& nums) {
 		sort(nums.begin(), nums.end());
@@ -75,6 +75,41 @@ public:
 					}
 					
 					tmpVec.clear();
+				}
+			}
+		}
+		return res;
+	}
+};
+
+/*
+* 二刷
+* 淘天 二面 口述 三数和 四数和
+*/
+class Solution {
+public:
+	vector<vector<int>> threeSum(vector<int>& nums) {
+		sort(nums.begin(), nums.end());
+		vector<vector<int>> res;
+		for (int i = 0; i < nums.size() - 2; i++)
+		{
+			if (i > 0 && nums[i] == nums[i - 1]) continue;
+			int left = i + 1, right = nums.size() - 1;
+			while (left < right)
+			{
+				int sum = nums[i] + nums[left] + nums[right];
+				if (sum > 0)
+					--right;
+				else if (sum < 0)
+					++left;
+				else
+				{
+					res.push_back({ nums[i], nums[left], nums[right] });
+					int remainLeft = nums[left], remainRight = nums[right];
+					while (left < nums.size() && nums[left] == remainLeft)
+						++left;
+					while (right >= 0 && nums[right] == remainRight)
+						--right;
 				}
 			}
 		}
