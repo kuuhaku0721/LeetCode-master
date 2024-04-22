@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 #include <string>
 #include <map>
+#include <unordered_set>
 using namespace std;
 
 /*
@@ -33,7 +34,7 @@ using namespace std;
 * 好了，100%，我感觉我进步了，毕竟上次见到你卡半天不会写
 */
 
-class Solution {
+class Solution1 {
 public:
 	int lengthOfLongestSubstring(string s) {
 		if (s.size() == 0) return 0;
@@ -56,12 +57,49 @@ public:
 	}
 };
 
+/*
+* 二刷
+* 那这么看的话，这题写三遍了，笑死wwwwww
+* 反正都要用find，那索性就让find也更快一点
+* 嘶.....反倒没有上面那个快，很神奇
+*/
+class Solution {
+public:
+	int lengthOfLongestSubstring(string s) {
+		unordered_set<char> uset;
+		int ans = 0;
+		string str = "";
+		int cnt = 0;
+		for (int i = 0; i < s.size();)
+		{
+			if (uset.find(s[i]) == uset.end())
+			{
+				str += s[i];
+				uset.insert(s[i]);
+				cnt++;
+				i++;
+			}
+			else
+			{
+				ans = max(ans, cnt);
+				uset.erase(str[0]);
+				str.erase(str.begin());
+				cnt = str.size();
+				// 这里i不再++，清空完窗口之后，从当前位置重新开始
+			}
+		}
+		ans = max(ans, cnt);
+		return ans;
+	}
+};
+
 int main()
 {
 	cout << "hello world" << endl;
-	// string str = "abba";
-	// string str = "abcabcbb";
-	string str = "bbbbb";
+	// string str = "abba";			// 2
+	// string str = "abcabcbb";		// 3
+	// string str = "bbbbb";		// 1
+	string str = "dvdf";			// 3
 	cout << Solution().lengthOfLongestSubstring(str) << endl;
 
 	system("pause");

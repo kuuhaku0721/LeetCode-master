@@ -22,7 +22,7 @@ using namespace std;
 * 好家伙，这题是除了前缀和就没解法了吗，全都是前缀和
 */
 
-class Solution {
+class Solution1 {
 public:
 	int subarraySum1(vector<int>& nums, int k) {
 		if (nums.empty()) return 0;
@@ -72,12 +72,42 @@ public:
 	}
 };
 
+/*
+* 二刷
+* hahaha，我托马莱伊拉
+* 连续、非空、求个数
+* 很好，定式思维了，老是往窗口上想，它不是窗口，是前缀和 （窗口能过，但只能过一半，所以还是不对）
+* 前缀和的要点之一就是：注意前缀和数组的第一个数要初始化成什么
+*/
+class Solution {
+public:
+	int subarraySum(vector<int>& nums, int k) {
+		int cnt = 0;
+		// 求前缀和数组
+		vector<int> prefix(nums.size() + 1);
+		prefix[0] = 0;	// 注意第一个初始化为0
+		unordered_map<int, int> ump_prefix; // 哈希表的意思是前缀和为key的子数组数量为value
+		for (int i = 0; i < nums.size(); i++)
+		{
+			prefix[i + 1] = nums[i] + prefix[i];
+		}
+		for (auto i : prefix)
+		{
+			if (ump_prefix.count(i - k) != 0)
+				cnt += ump_prefix[i - k];
+			ump_prefix[i]++;
+		}
+		return cnt;
+	}
+};
+
 
 int main()
 {
 	
 	cout << "hello world" << endl;
 	vector<int> nums{ 1, -1, 0 };
+	// vector<int> nums{ 1 };
 	int k = 0;
 	int res = Solution().subarraySum(nums, k);
 	cout << res << endl;

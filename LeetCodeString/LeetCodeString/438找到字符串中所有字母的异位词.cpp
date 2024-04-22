@@ -53,7 +53,7 @@ public:
 /*
 * 一个不会超时的答案
 */
-class Solution {
+class Solution2 {
 public:
 	vector<int> findAnagrams(string s, string p)
 	{
@@ -85,11 +85,44 @@ public:
 	}
 };
 
+/*
+* 二刷
+* 已知的是窗口大小是固定的，那么可行的一种做法就是截子串
+* 虽然不用真的实际去截取，只需要判断，但是如果用哈希判断的话，顺序无所谓，重复咋办？
+* 很好，可以，也是超时，超时就超时吧，能做出来就行了
+*/
+class Solution {
+public:
+	vector<int> findAnagrams(string s, string p)
+	{
+		if (s.size() < p.size())
+			return vector<int>();
+		vector<int> res;
+		unordered_multiset<char> backup(p.begin(), p.end());
+		for (int i = 0; i <= s.size() - p.size(); i++)
+		{
+			unordered_multiset<char> temp(s.begin() + i, s.begin() + i + p.size());
+			bool flag = true;
+			for (auto c : temp)
+			{
+				if (temp.count(c) != backup.count(c))
+				{
+					flag = false;
+					break;
+				}
+			}
+			if (flag)
+				res.push_back(i);
+		}
+		return res;
+	}
+};
+
 int main()
 {
 	cout << "hello world" << endl;
-	string s = "cbaebabacd";
-	string q = "abc";
+	string s = "abab";
+	string q = "ab";
 	auto vec = Solution().findAnagrams(s, q);
 	for (auto i : vec)
 	{
