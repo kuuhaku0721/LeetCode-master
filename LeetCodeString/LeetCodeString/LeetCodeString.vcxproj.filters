@@ -46,6 +46,9 @@
     <Filter Include="源文件\随想录速刷">
       <UniqueIdentifier>{f41e1e52-cba6-4af1-a880-3d03c79668a1}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\2000以上">
+      <UniqueIdentifier>{0eeee041-8d64-44c4-bfcd-d89e60beaceb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="2两数相加.cpp">
@@ -851,6 +854,9 @@
     </ClCompile>
     <ClCompile Include="42接雨水.cpp">
       <Filter>源文件\hot100</Filter>
+    </ClCompile>
+    <ClCompile Include="2739总行驶距离.cpp">
+      <Filter>源文件\2000以上</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
