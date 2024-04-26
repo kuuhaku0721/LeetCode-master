@@ -29,11 +29,11 @@ public:
         Node(int value) { val = value; next = NULL; }
     };
 
-    Node* m_list;
+    Node* m_snaps;
     int len = 0;
 
     MyLinkedList() {
-        m_list = new Node();
+        m_snaps = new Node();
         len = 0;
     }
 
@@ -41,7 +41,7 @@ public:
         if (index >= len)
             return -1;
         int i = 0;
-        Node* head = m_list->next;
+        Node* head = m_snaps->next;
         while (head != NULL)
         {
             if (i == index)
@@ -54,13 +54,13 @@ public:
 
     void addAtHead(int val) {
         Node* node = new Node(val);
-        node->next = m_list->next;
-        m_list->next = node;
+        node->next = m_snaps->next;
+        m_snaps->next = node;
         len++;
     }
 
     void addAtTail(int val) {
-        Node* node = m_list;
+        Node* node = m_snaps;
         while (node->next != NULL)
             node = node->next;
         Node* newOne = new Node(val);
@@ -71,7 +71,7 @@ public:
 
     void addAtIndex(int index, int val) {
         if (index > len) return;
-        Node* head = m_list;
+        Node* head = m_snaps;
         int i = 0;
         while (head != NULL)
         {
@@ -88,7 +88,7 @@ public:
 
     void deleteAtIndex(int index) {
         if (index >= len) return;
-        Node* head = m_list;
+        Node* head = m_snaps;
         int i = 0;
         while (head != NULL)
         {

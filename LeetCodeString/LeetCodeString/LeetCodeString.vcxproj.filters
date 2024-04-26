@@ -858,5 +858,8 @@
     <ClCompile Include="2739总行驶距离.cpp">
       <Filter>源文件\2000以上</Filter>
     </ClCompile>
+    <ClCompile Include="1146快照数组.cpp">
+      <Filter>源文件\1001-1200</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
