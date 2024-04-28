@@ -864,5 +864,8 @@
     <ClCompile Include="2639查询网格中每一列的宽度.cpp">
       <Filter>源文件\2000以上</Filter>
     </ClCompile>
+    <ClCompile Include="1017负二进制转换.cpp">
+      <Filter>源文件\1001-1200</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
