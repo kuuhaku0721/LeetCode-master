@@ -867,5 +867,8 @@
     <ClCompile Include="1017负二进制转换.cpp">
       <Filter>源文件\1001-1200</Filter>
     </ClCompile>
+    <ClCompile Include="1329将矩阵按对角线排序.cpp">
+      <Filter>源文件\1001-1200</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
