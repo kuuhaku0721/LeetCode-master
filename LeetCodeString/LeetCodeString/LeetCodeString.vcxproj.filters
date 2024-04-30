@@ -888,5 +888,8 @@
     <ClCompile Include="84柱状图中最大的矩形.cpp">
       <Filter>源文件\hot100</Filter>
     </ClCompile>
+    <ClCompile Include="295数据流的中位数.cpp">
+      <Filter>源文件\hot100</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
