@@ -879,5 +879,14 @@
     <ClCompile Include="41缺失的第一个正数.cpp">
       <Filter>源文件\hot100</Filter>
     </ClCompile>
+    <ClCompile Include="25K个一组翻转链表.cpp">
+      <Filter>源文件\hot100</Filter>
+    </ClCompile>
+    <ClCompile Include="4寻找两个正序数组的中位数.cpp">
+      <Filter>源文件\hot100</Filter>
+    </ClCompile>
+    <ClCompile Include="84柱状图中最大的矩形.cpp">
+      <Filter>源文件\hot100</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
