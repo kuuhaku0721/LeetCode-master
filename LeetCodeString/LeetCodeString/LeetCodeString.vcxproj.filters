@@ -870,5 +870,14 @@
     <ClCompile Include="1329将矩阵按对角线排序.cpp">
       <Filter>源文件\1001-1200</Filter>
     </ClCompile>
+    <ClCompile Include="2798满足目标工作时长的员工数目.cpp">
+      <Filter>源文件\1001-1200</Filter>
+    </ClCompile>
+    <ClCompile Include="76最小覆盖子串.cpp">
+      <Filter>源文件\hot100</Filter>
+    </ClCompile>
+    <ClCompile Include="41缺失的第一个正数.cpp">
+      <Filter>源文件\hot100</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
