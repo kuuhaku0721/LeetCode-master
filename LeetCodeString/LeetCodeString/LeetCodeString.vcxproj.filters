@@ -891,5 +891,11 @@
     <ClCompile Include="295数据流的中位数.cpp">
       <Filter>源文件\hot100</Filter>
     </ClCompile>
+    <ClCompile Include="32最长有效括号.cpp">
+      <Filter>源文件\hot100</Filter>
+    </ClCompile>
+    <ClCompile Include="2462雇佣K位工人的总代价.cpp">
+      <Filter>源文件\2000以上</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
