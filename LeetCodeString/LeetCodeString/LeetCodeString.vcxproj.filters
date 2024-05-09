@@ -912,5 +912,11 @@
     <ClCompile Include="1463摘樱桃Ⅱ.cpp">
       <Filter>源文件\1001-1200</Filter>
     </ClCompile>
+    <ClCompile Include="2079给植物浇水.cpp">
+      <Filter>源文件\2000以上</Filter>
+    </ClCompile>
+    <ClCompile Include="2105给植物浇水Ⅱ.cpp">
+      <Filter>源文件\2000以上</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
