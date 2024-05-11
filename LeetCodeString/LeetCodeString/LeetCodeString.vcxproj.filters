@@ -918,5 +918,11 @@
     <ClCompile Include="2105给植物浇水Ⅱ.cpp">
       <Filter>源文件\2000以上</Filter>
     </ClCompile>
+    <ClCompile Include="2960统计已测试设备.cpp">
+      <Filter>源文件\2000以上</Filter>
+    </ClCompile>
+    <ClCompile Include="2391收集垃圾的最少总时间.cpp">
+      <Filter>源文件\2000以上</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
